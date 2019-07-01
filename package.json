@@ -1,0 +1,30 @@
+{
+  "name": "linear-regression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "dist": "tsc",
+    "dist:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burzomir/linear-regression.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burzomir/linear-regression/issues"
+  },
+  "homepage": "https://github.com/burzomir/linear-regression#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "parcel-bundler": "^1.12.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  }
+}
